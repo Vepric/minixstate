@@ -6,6 +6,76 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #EDF1F4;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #153D66;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h2 {
+  margin: 0;
+}
+
+.form-container {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.125)
+}
+
+.form-header {
+  padding: 1.75rem;
+  padding-bottom: 0;
+}
+
+.form-body {
+  padding: 1.75rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 4px;
+  width: 100%;
+}
+
+input {
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  box-shadow: none;
+  border: 1px solid #A4B6C0;
+  width: 100%;
+}
+
+input:focus {
+  box-shadow: rgba(0, 0, 0, 0.075) 0px 1px 1px inset, rgba(102, 175, 233, 0.6) 0px 0px 8px;
+  border-color: rgb(102, 175, 233);
+  outline: 0px;
+}
+
+button {
+  -webkit-appearance: none;
+  margin: 1.75rem auto 0;
+  display: block;
+  cursor: pointer;
+  padding: 12px 20px;
+  background-color: #A6E9DC;
+  border: 0;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #004C4A;
+}
+
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
